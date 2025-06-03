@@ -1,31 +1,29 @@
-# 🍽️ Proyecto Final - Platillos e Ingredientes
+# Proyecto Final - Platillos e Ingredientes
 
 Aplicación Java desarrollada con Apache NetBeans y Apache Ant para la gestión de platillos y sus ingredientes. Este proyecto simula un sistema de registro y consulta de recetas, diseñado como parte de una asignatura académica de programación.
 
 ---
 
-## 📌 Índice
+## Índice
 
 - [Descripción General](#descripción-general)
 - [Características](#características)
 - [Requisitos](#requisitos)
 - [Ejecución](#ejecución)
 - [Estructura del Proyecto](#estructura-del-proyecto)
-- [Capturas de Pantalla](#capturas-de-pantalla)
 - [Autores](#autores)
-- [Licencia](#licencia)
 
 ---
 
-## 📖 Descripción General
+## Descripción General
 
 El sistema permite al usuario ingresar, visualizar y generar reportes de diferentes platillos y sus ingredientes. A través de una interfaz sencilla, se pueden almacenar datos de manera estructurada.
 
-
+Además, el proyecto incluye un archivo PDF (`ReportePlatillosEIngredientes.pdf`) que describe su funcionalidad y diseño.
 
 ---
 
-## ✨ Características
+## Características
 
 - Registro de platillos con múltiples ingredientes
 - Gestión básica de datos (inserción, visualización)
@@ -35,7 +33,7 @@ El sistema permite al usuario ingresar, visualizar y generar reportes de diferen
 
 ---
 
-## ⚙️ Requisitos
+## Requisitos
 
 - Java Development Kit (JDK) 8 o superior
 - Apache NetBeans 12 o superior
@@ -44,7 +42,7 @@ El sistema permite al usuario ingresar, visualizar y generar reportes de diferen
 
 ---
 
-## ▶️ Ejecución
+## Ejecución
 
 Puedes ejecutar el proyecto desde NetBeans o desde línea de comandos usando Ant:
 
@@ -61,3 +59,23 @@ cd ProyectoFinal-Platillos
 ant clean
 ant build
 ant run
+```
+
+## Estructura del proyecto
+
+ProyectoFinal-Platillos/
+├── src/                   # Código fuente
+├── nbproject/             # Configuración del proyecto (NetBeans)
+├── build.xml              # Script Ant para compilar y ejecutar
+├── manifest.mf            # Archivo de manifiesto para ejecutar el JAR
+├── ReportePlatillosEIngredientes.pdf
+├── .gitignore
+└── README.md
+
+## Autores
+
+**Iván Hernández Gómez**  
+Estudiante de Ingeniería en Tecnologías computacionales
+ivanhdzgz1310@gmail.com
+[GitHub](https://github.com/IvanHdzGz)  
+Responsable del desarrollo y documentación del proyecto
