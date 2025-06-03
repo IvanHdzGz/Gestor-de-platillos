@@ -33,6 +33,7 @@ public class JDIngredientes extends javax.swing.JDialog {
         initComponents();
         setLocationRelativeTo(null);
         this.manager = new MySQLDAOManager();
+        this.setTitle("Gestor de ingredientes");
     }
 
     /**

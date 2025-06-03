@@ -52,6 +52,7 @@ public class JDPlatillos extends javax.swing.JDialog {
         inicializarListaIngredientes();
 
         setLocationRelativeTo(null);
+        this.setTitle("Gestor de platillos");
     }
 
     /**
