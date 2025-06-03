@@ -68,6 +68,7 @@ ProyectoFinal-Platillos/
 ├── nbproject/             # Configuración del proyecto (NetBeans)
 ├── build.xml              # Script Ant para compilar y ejecutar
 ├── manifest.mf            # Archivo de manifiesto para ejecutar el JAR
+├── platillos.sql          # Base de datos para el funcionamiento de la aplicación
 ├── ReportePlatillosEIngredientes.pdf
 ├── .gitignore
 └── README.md
